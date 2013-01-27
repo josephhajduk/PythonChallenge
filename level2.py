@@ -10,3 +10,5 @@ transl = string.maketrans(
 )
 
 print string.translate(message,transl)
+
+print string.translate("map",transl)
