@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b5df7c-f409-4823-8517-dee195b4a659" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/level3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/level2.py" afterPath="$PROJECT_DIR$/level2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/level4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonChallenge.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/level1.py" changelist="38b5df7c-f409-4823-8517-dee195b4a659" time="1359324241632" ignored="false" />
-    <file path="/Dummy.txt" changelist="38b5df7c-f409-4823-8517-dee195b4a659" time="1359324603534" ignored="false" />
+    <file path="/Dummy.txt" changelist="38b5df7c-f409-4823-8517-dee195b4a659" time="1359326310278" ignored="false" />
     <file path="/level2.py" changelist="38b5df7c-f409-4823-8517-dee195b4a659" time="1359325338119" ignored="false" />
     <file path="/level3.py" changelist="38b5df7c-f409-4823-8517-dee195b4a659" time="1359326280088" ignored="false" />
+    <file path="/level4.py" changelist="38b5df7c-f409-4823-8517-dee195b4a659" time="1359327610049" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +88,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="level3.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="level3.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/level3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="48" selection-start="740" selection-end="740" vertical-scroll-proportion="0.6698413">
+            <state line="21" column="26" selection-start="95" selection-end="477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level4.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/level4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="23" selection-start="783" selection-end="783" vertical-scroll-proportion="0.70990235">
               <folding />
             </state>
           </provider>
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/level1.py" />
         <option value="$PROJECT_DIR$/level2.py" />
         <option value="$PROJECT_DIR$/level3.py" />
+        <option value="$PROJECT_DIR$/level4.py" />
       </list>
     </option>
   </component>
@@ -199,7 +209,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.level3">
+  <component name="RunManager" selected="Python.level4">
     <configuration default="false" name="level1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,6 +256,23 @@
       <module name="PythonChallenge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level3.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="level4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="PythonChallenge" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level4.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -341,16 +368,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.level1" />
       <item index="1" class="java.lang.String" itemvalue="Python.level2" />
       <item index="2" class="java.lang.String" itemvalue="Python.level3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.level4" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.level3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.level2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.level1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.level4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.level3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.level2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.level1" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -373,7 +402,11 @@
       <created>1359324606828</created>
       <updated>1359324606828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="level 3 done yay!">
+      <created>1359326312989</created>
+      <updated>1359326312989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -394,8 +427,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13500534" sideWeight="0.31125227" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6887477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13500534" sideWeight="0.6878403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31215972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -443,7 +476,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="level 1 and 2 done as examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="level 3 done yay!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -458,6 +491,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="level 1 and 2 done as examples" />
+    <MESSAGE value="level 3 done yay!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -479,7 +513,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/level3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="48" selection-start="740" selection-end="740" vertical-scroll-proportion="0.6698413">
+        <state line="21" column="26" selection-start="95" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="23" selection-start="783" selection-end="783" vertical-scroll-proportion="0.70990235">
           <folding />
         </state>
       </provider>
