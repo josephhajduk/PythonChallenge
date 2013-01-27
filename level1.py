@@ -1,3 +1,5 @@
 __author__ = 'jhajduk'
 
-print 2^28
+import math
+
+print math.pow(2,38)
