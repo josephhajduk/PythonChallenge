@@ -19,8 +19,6 @@ i2 = len(data) - data[::-1].index(">--") - 4
 #here is our secret data
 secret_data = data[i1:i2]
 
-print secret_data
-
 counted = set([])
 
 only1 = ""
@@ -28,9 +26,7 @@ only1 = ""
 for char in secret_data:
     if not char in counted:
         char_count = secret_data.count(char)
-        print "'"+char +"':"+str(char_count)
         counted.add(char)
-
         if char_count == 1:
             only1 = only1 + char
 
