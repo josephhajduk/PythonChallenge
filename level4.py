@@ -10,14 +10,7 @@ u_sock.close()
 
 # pull out the comment block at the end of the html
 
-# reverse string then find index of <!-- reversed
-i1 = len(data) - data[::-1].index("--!<") + 1
-
-# reverse string then find index of --> reversed
-i2 = len(data) - data[::-1].index(">--") - 4
-
-#here is our secret data
-secret_data = data[i1:i2]
+secret_data = data[data.rfind("<!--")+1:data.rfind("-->")]
 
 #print secret_data
 
